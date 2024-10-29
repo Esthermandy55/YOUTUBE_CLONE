@@ -1,0 +1,218 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 15vw 83vw;
+  grid-template-rows: 10vh 10vh 100vh;
+  background-color: #0f0f0f;
+}
+
+aside {
+  grid-row: 1/4;
+  color: white;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+aside div {
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+  margin-left: 10px;
+  gap: 20px;
+}
+
+aside div i {
+  font-size: 20px;
+}
+
+.logo_div {
+  margin-top: -15px;
+}
+
+.hr {
+  height: 1px;
+  background-color: gray;
+  margin: 0%;
+}
+
+.you {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.sub {
+  font-size: 15px;
+  font-family: arial;
+}
+
+.ben {
+  border-radius: 50%;
+  font-size: 12px;
+  font-family: arial;
+}
+
+#dot i {
+  color: aqua;
+  font-size: 4px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.me {
+  border-radius: 50%;
+}
+
+.searchSection {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.searchSection form {
+  display: flex;
+  height: 6vh;
+}
+
+.searchSection form input {
+  width: 40vw;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid #222222;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.searchSection form button {
+  background-color: #222222;
+  border: 1px solid #222222;
+  width: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+}
+
+header i {
+  font-size: 18px;
+}
+
+header button {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.mic {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #222222;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  overflow-x: auto;
+}
+
+nav a {
+  background-color: #222222;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  width: fit-content;
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+nav::-webkit-scrollbar {
+  display: none;
+}
+
+.videoContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.div {
+  display: flex;
+}
+
+.rice {
+  border-radius: 10px;
+}
+
+.bean {
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  color: gray;
+  font-size: 15px;
+  margin-left: 52px;
+  margin-top: -12px;
+  line-height: 20px;
+  font-weight: small;
+  letter-spacing: -0.5px;
+}
+
+.chi button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+h2,
+p {
+  font-family: sans-serif;
+}
+
+p i {
+  font-size: 12px;
+}
+
+.chi {
+  display: flex;
+  gap: 3%;
+  margin-top: 7px;
+}
+
+.not {
+  margin-top: -15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
